@@ -8,10 +8,10 @@ namespace QueueSender
     {
 
         // connection string to your Service Bus namespace  ||TR: Service Bus ad alanını için bağlantı dizesi
-        static string connectionString = "Endpoint=sb://mesagedemo92.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=u++jCdibKCeClFvSjTpNOEiVIEDL3fpfCifFLsoNRec=";
+        static string connectionString = "***************(endpoint)";
 
         // name of your Service Bus queue || Service Bus kuyruk adı
-        static string queueName = "msgqueue";
+        static string queueName = "**********";
 
         // the client that owns the connection and can be used to create senders and receivers  ||TR: göndericiler ve alıcılar oluşturmak bağlantıya sahip olan ve kullanılabilen istemci
         static ServiceBusClient? client;
