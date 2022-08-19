@@ -7,10 +7,10 @@ namespace QueueReceiver
     class Program
     {
         // connection string to your Service Bus namespace
-        static string connectionString = "Endpoint=sb://mesagedemo92.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=u++jCdibKCeClFvSjTpNOEiVIEDL3fpfCifFLsoNRec=";
+        static string connectionString = "*********(endpoint)";
 
         // name of your Service Bus queue
-        static string queueName = "msgqueue";
+        static string queueName = "********";
 
 
         // the client that owns the connection and can be used to create senders and receivers
